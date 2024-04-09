@@ -1,9 +1,16 @@
-/* Пиши стили тут */
-.star {
-    width: 100px;
-    height: 100px;
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
-.star:hover{
+.star {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.stars .star:hover,
+.stars .star:hover ~ .star {
     background-image: url('img/star.svg');
 }
