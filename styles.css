@@ -1,1 +1,9 @@
 /* Пиши стили тут */
+.star {
+    width: 100px;
+    height: 100px;
+}
+
+.star:hover{
+    background-image: url('img/star.svg');
+}
